@@ -12,6 +12,6 @@ public class UserController {
 
     @GetMapping
     public ResponseEntity<String> getUserName(){
-        return new ResponseEntity<>("Hello from jenkins", HttpStatus.OK);
+        return new ResponseEntity<>("Jenkins deployment of rest API to create docker image on remote machine and deploy", HttpStatus.OK);
     }
 }
